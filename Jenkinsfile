@@ -16,6 +16,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Test the job'
+                echo "hello this is multibranch jenkins" 
             }
         }
         stage('Deploy') {
